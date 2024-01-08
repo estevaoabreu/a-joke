@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: Ibarra_Bold;
+  src: url(./fonts/IbarraRealNova-Bold.woff);
+}
+
+@font-face {
+  font-family: Ibarra_Medium;
+  src: url(./fonts/IbarraRealNova-Medium.woff);
+}
+
+@font-face {
+  font-family: Ibarra;
+  src: url(./fonts/IbarraRealNova-Regular.woff);
+}
+
+@font-face {
+  font-family: Ibarra_SemiBold;
+  src: url(./fonts/IbarraRealNova-SemiBold.woff);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+body {
+  font-family: Ibarra, serif;
+  background-color: #ffffff;
+}
